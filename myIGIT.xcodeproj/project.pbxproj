@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38452A43262B52A4007C6A7C /* TabBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38452A42262B52A4007C6A7C /* TabBarCollectionViewCell.swift */; };
 		38B31A60262B42A800E7A40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B31A5F262B42A800E7A40E /* AppDelegate.swift */; };
 		38B31A62262B42A800E7A40E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B31A61262B42A800E7A40E /* SceneDelegate.swift */; };
 		38B31A64262B42A800E7A40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B31A63262B42A800E7A40E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38452A42262B52A4007C6A7C /* TabBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCollectionViewCell.swift; sourceTree = "<group>"; };
 		38B31A5C262B42A800E7A40E /* myIGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myIGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B31A5F262B42A800E7A40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38B31A61262B42A800E7A40E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				38B31A5F262B42A800E7A40E /* AppDelegate.swift */,
 				38B31A61262B42A800E7A40E /* SceneDelegate.swift */,
 				38B31A63262B42A800E7A40E /* ViewController.swift */,
+				38452A42262B52A4007C6A7C /* TabBarCollectionViewCell.swift */,
 				38B31A65262B42A800E7A40E /* Main.storyboard */,
 				38B31A68262B42A900E7A40E /* Assets.xcassets */,
 				38B31A6A262B42A900E7A40E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38452A43262B52A4007C6A7C /* TabBarCollectionViewCell.swift in Sources */,
 				38B31A64262B42A800E7A40E /* ViewController.swift in Sources */,
 				38B31A60262B42A800E7A40E /* AppDelegate.swift in Sources */,
 				38B31A62262B42A800E7A40E /* SceneDelegate.swift in Sources */,
