@@ -58,13 +58,23 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZd-cu-8LB">
+                                                    <rect key="frame" x="0.0" y="2" width="76" height="1"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="2Wu-z2-bX6"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="0Tt-QE-5GT" firstAttribute="top" secondItem="tBa-f6-su0" secondAttribute="bottom" constant="2" id="3mt-IP-bCs"/>
+                                                <constraint firstAttribute="trailing" secondItem="NZd-cu-8LB" secondAttribute="trailing" id="EwK-SO-ZVz"/>
                                                 <constraint firstAttribute="bottom" secondItem="0Tt-QE-5GT" secondAttribute="bottom" constant="4" id="HZQ-4K-ySz"/>
+                                                <constraint firstItem="NZd-cu-8LB" firstAttribute="top" secondItem="Ojt-R2-yp8" secondAttribute="top" constant="2" id="Nt6-Td-ajV"/>
                                                 <constraint firstItem="0Tt-QE-5GT" firstAttribute="leading" secondItem="Ojt-R2-yp8" secondAttribute="leading" constant="2" id="S5l-Cr-YZS"/>
                                                 <constraint firstItem="tBa-f6-su0" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ojt-R2-yp8" secondAttribute="top" constant="5" id="TgN-Gx-ibn"/>
                                                 <constraint firstItem="tBa-f6-su0" firstAttribute="centerX" secondItem="Ojt-R2-yp8" secondAttribute="centerX" id="bah-md-M33"/>
+                                                <constraint firstItem="NZd-cu-8LB" firstAttribute="leading" secondItem="Ojt-R2-yp8" secondAttribute="leading" id="lmi-kY-cwi"/>
                                                 <constraint firstAttribute="trailing" secondItem="0Tt-QE-5GT" secondAttribute="trailing" constant="2" id="oOC-N2-CZk"/>
                                             </constraints>
                                         </collectionViewCellContentView>
@@ -114,6 +124,9 @@
         <image name="logo" width="225" height="225"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

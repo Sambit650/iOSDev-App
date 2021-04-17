@@ -139,6 +139,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
 extension ViewController {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         updateTabBar(index: indexPath)
+        //print(webView.backForwardList.backList.count)
     }
     
     private func updateTabBar(index: IndexPath) {
