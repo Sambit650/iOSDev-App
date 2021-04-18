@@ -59,8 +59,7 @@ class ViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         runActivityIndicator()
-        loadWebView(index: selectedTab)
-        webView.allowsBackForwardNavigationGestures = true
+        setWebView()
     }
     
     //number of tab
@@ -76,6 +75,13 @@ class ViewController: UIViewController {
     }
     
     // MARK:- Methods
+    
+    private func setWebView() {
+        loadWebView(index: selectedTab)
+        webView.allowsBackForwardNavigationGestures = true
+        webView.scrollView.showsHorizontalScrollIndicator = false
+        webView.scrollView.delegate = self
+    }
     
     private func loadWebView(index: IndexPath) {
         var pageURL = Constants.URLs.myigit
@@ -98,6 +104,12 @@ class ViewController: UIViewController {
         let url = URL(string: pageURL)
         let requestObj = URLRequest(url: url! as URL)
         webView.load(requestObj)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (scrollView.contentOffset.x > 0) {
+            scrollView.contentOffset = CGPoint(x: 0, y: scrollView.contentOffset.y)
+        }
     }
 }
 
