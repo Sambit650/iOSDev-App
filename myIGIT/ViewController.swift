@@ -29,12 +29,12 @@ class ViewController: UIViewController {
         }
         
         enum URLs {
-            static let myigit = "https://myigit.info"
-            static let interviewQuestion = "https://myigit.info/interviewQA.html"
-            static let notes = "https://myigit.info/mcanote.html"
-            static let books = "https://myigit.info/eBooks.html"
-            static let gallery = "https://myigit.info/gallery.html"
-            static let about = "https://myigit.info/aboutus.html"
+            static let myigit = "https://iosdev.in"
+            static let interviewQuestion = "https://iosdev.in/interviewQA.html"
+            static let notes = "https://iosdev.in/mcanote.html"
+            static let books = "https://iosdev.in/eBooks.html"
+            static let gallery = "https://iosdev.in/gallery.html"
+            static let about = "https://iosdev.in/aboutus.html"
         }
         
         enum Colors {
